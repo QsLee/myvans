@@ -1,0 +1,52 @@
+@charset "utf-8";
+header{width:100%;height: 185px;background:#fff;border-bottom: 15px solid #000;}
+footer  .wow{width:100%;height:10px;}
+a:hover{text-decoration: none;}
+header .center ul.main li.top6 form input{width:200px;height:30px;font-size:15px;margin-top: -3px;padding-left:10px;font-weight:800;}
+header .center ul.main li.top2{margin-right:22px;}
+
+#banner{width:100%;background:#F1F2ED;padding-top: 30px;}
+div.show{width:100%;height:50px;margin-bottom:400px;}
+
+/*section*/
+section{height:1400px;background: #F1F2ED;} 
+section article.one{height:400px;padding-top:30px;}
+section article.one .man,.woman{padding-right: 21px;}
+section article.one dl{float:left;position: relative;}
+section article.one dl dt{width:320px;height:399px;background:#000;}
+section article.one dl dt img{transition:.8s;}
+section article.one dl dt:hover img{opacity:0.7;transition:.8s;}
+section article.one dl dd{width:320px;height:210px;background: rgba(0,0,0,.7);position: absolute;left:0;bottom: 0;}
+section article.one dl dd ul{margin-top: 10px;}
+section article.one dl dd ul li{height:35px;line-height: 35px;text-align: center;margin-bottom: 5px;}
+section article.one dl dd ul li a{color:#fff;font-size:16px;display: block;width:60px;height:33px;line-height:33px;margin:auto;transition:.8s;}
+section article.one dl dd ul li.end a{width:90px;}
+section article.one dl dd ul li a:hover{background:#D6000F;transition:.8s;}
+section article.one dl dd ul li.head{color:#fff;font-size:22px;font-weight: 800;}
+section article.one dl.vans dd{height:60px;color:#fff;font-size:22px;font-weight: 800;line-height:60px;text-align: center;}
+
+section article.two{width:100%;height:580px;margin-top:70px;}
+section article.two div.head{width:200px;height:40px;line-height:40px;text-align:center;font-size:35px;color:#000;font-weight: 800;margin:auto;}
+section article.two div.news dl{float:left;width:240px;height:500px;background:#fff;padding:15px;border:1px solid #D7D8D4;margin-top:30px;position: relative;}
+section article.two div.news dl dt{width:210px;height:188px;overflow:hidden;}
+section article.two div.news dl dt img{transition: .5s;}
+section article.two div.news dl dt:hover img{transform: scale(1.1);transition: .5s;}
+section article.two div.news dl.x{margin-right:13px;}
+section article.two div.news dl dd{letter-spacing: 1px;line-height:25px;margin-top:10px;}
+section article.two div.news dl dd.title a{font-size: 15px;color:#000;font-weight: 800;}
+section article.two div.news dl dd.text{font-size: 13px;}
+section article.two div.news dl dd.time{font-size: 16px;margin-top:20px;}
+section article.two div.news dl dd.more{position: absolute;left:0;bottom: 15px;}
+section article.two div.news dl dd.more a{font-size: 16px;color:#589BC6;font-weight: 800;display:block;width:240px;text-align: center;}
+section article.two div.news dl dd.more a:hover{color:#C9192E;}
+
+
+section article.three div.head{width:280px;height:40px;line-height:40px;text-align:center;font-size:35px;color:#000;font-weight: 800;margin:auto;margin-top:50px;margin-bottom: 20px;}
+section article.three dl{float: left;position: relative;}
+section article.three dl.x{margin-right: 27px;}
+section article.three dl dt{width:230px;height:172px;background:#000;}
+section article.three dl dt img{transition:.8s;}
+section article.three dl dt:hover img{opacity:0.7;transition:.8s;}
+section article.three dl dd{width:230px;height:80px;background: rgba(0,0,0,.5);position: absolute;left:0;bottom: 0;}
+section article.three dl dd a{display: block;width:230px;height:80px;text-align: center;line-height: 80px;font-size: 20px;color:#fff;font-weight: 800;}
+

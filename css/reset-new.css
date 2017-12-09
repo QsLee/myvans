@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+header nav ul li.a4 a{color:#C30008;}
+
+section{height:1600px;background:#F1F2ED;}
+section article.top{padding-top:30px;}
+section article.top .one a{font-size: 18px;color:#589BC6;font-weight: 800;}
+section article.top .one a:hover{color:#C8192E;}
+section article.top .one span.a{padding:0 15px;font-size:18px;color:#D7D8D4;}
+section article.top .one span.b{font-size:16px;color:#64686B;font-weight: 800;}
+section article.top .two{margin-top: 50px;}
+section article.top .two .page{width:124px;height:37px;background: url(../images1/art1-01.png) no-repeat;margin-top: 5px;}
+section article.top .two .page span{display:block;width:60px;height:32px;text-align:center;line-height:32px;margin-left: 32px;border:1px solid #D2D2D2;}
+section article.top .two .px select{width:200px;height:40px;color:#666666;font-size: 15px;font-weight: 800;border-left:none;}
+section article.top .two .p{width:50px;height:38px;line-height:38px;font-size: 15px;font-weight: 800;color:#666666;border:1px solid #A9A9A9;border-right:none;background: #fff;margin-left:607px;padding-left:20px;}
+section article.top img{margin-top:5px;}
+
+
+section article.bot .type{width:220px;height:1200px;margin-right:11px;}
+section article.bot .type dl{border-bottom:1px dashed #D2D2D2;}
+section article.bot .type dl dt a{display:block;width:220px;color:#000;font-size:18px;font-weight: 800;line-height:50px;}
+section article.bot .type dl dd a{display:block;width:220px;color:#589BC6;font-size:15px;font-weight: 800;line-height:28px;}
+section article.bot .type dl dd a span{float:right;font-size:13px;}
+section article.bot .type dl dd a:hover{color:#C8192E;}
+section article.bot .type dl.size{border:none;}
+section article.bot .type dl.size  ul{width:220px;height:200px;border-bottom:1px dashed #D2D2D2;}
+section article.bot .type dl.size  ul li{float:left;width:37px;height:37px;border:1px solid #D2D2D2;margin-right:5px;margin-bottom: 5px;}
+section article.bot .type dl.size  ul li a{display: block;text-align: center;line-height: 37px;color:#589BC6;font-weight: 800;}
+section article.bot .type dl.size  ul li a:hover{background: #000;}
+
+
+section article.bot .cloth dl{float:left;position: relative;margin:5px 6px;width:245px;}
+section article.bot .cloth dl dt img{transition: 0.3s;}
+section article.bot .cloth dl:hover img{opacity:0;transition: 0.3s;}
+section article.bot .cloth dl dd a{display:block;text-align: center;font-weight:800;}
+section article.bot .cloth dl dd.name a{font-size:16px;color:#64686B;margin-top:10px;}
+section article.bot .cloth dl dd.name a:hover{color:#C8192E;}
+section article.bot .cloth dl dd.price{font-size:14px;color:#C8192E;text-align:center;margin-top:10px;font-weight:800;margin-bottom: 10px;}
+section article.bot .cloth dl dd.buy{position: absolute;left:30px;top:180px;}
+section article.bot .cloth dl dd.buy a{width:180px;height:50px;line-height: 50px; background:#C8192E;color:#fff;font-size:16px;transition: 0.3s;opacity: 0;}
+section article.bot .cloth dl dd.buy a:hover{background: #000;transition: 0.3s;}
+section article.bot .cloth dl:hover dd.buy a{opacity: 1;}
+section article.bot .cloth dl.cl1{background:url(../images1/art2-01-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl2{background:url(../images1/art2-02-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl3{background:url(../images1/art2-03-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl4{background:url(../images1/art2-04-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl5{background:url(../images1/art2-05-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl6{background:url(../images1/art2-06-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl7{background:url(../images1/art2-07-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl8{background:url(../images1/art2-08-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl9{background:url(../images1/art2-09-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl10{background:url(../images1/art2-10-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl11{background:url(../images1/art2-11-1.jpg) no-repeat;}
+section article.bot .cloth dl.cl12{background:url(../images1/art2-12-1.jpg) no-repeat;}
+
+
+

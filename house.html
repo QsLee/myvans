@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="JS代码,焦点图,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为自适应宽度的jQuery焦点图代码，属于站长常用代码，更多焦点图代码请访问懒人图库JS代码频道。" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/lrtk.css">
+
+	<title>Document</title>
+
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset-house.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<header>
+	<div class="center">
+		<ul class="main fr">
+			<li class="top1"><div class="change1"></div><a href="#">登录 / 注册</a></li>
+			<li class="top2"><div class="change2"></div><a href="#">我的购物车</a></li>
+			<li class="top3"><div class="change3"></div><a href="#">我的收藏夹</a></li>
+			<li class="top4"><a href="#">获取帮助</a></li>
+			<li class="top5"><div class="change5"></div><a href="#">中国</a></li>
+			<li class="top6"><a href="#"><div class="search"></div></a>
+				<form>
+					<input type="text" placeholder="搜索VANS">
+				</form>
+				<ul class="bottom">
+					<li><a href="#">新品</a> |</li>
+					<li><a href="#">经典款</a> |</li>
+					<li><a href="#">职业滑板系列</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<div class="clear"></div>
+
+		<nav>
+			<a href="index.html"><img class="fl" src="images/header-logo.jpg"></a>
+			<ul class="fr">
+				<li class="a1">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="about.html">关于VANS</a>
+					<div class="two1">
+						<div class="t1">
+							<dl><dt>THIS IS OFF THE WALL</dt></dl>
+							<dl><dt>新闻</dt></dl>
+						</div>
+					</div>
+					
+				</li>
+				<li class="a2">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="sports.html">运动员</a>
+					<div class="two2">
+						<div class="t2">
+							<dl><dt>中国运动员</dt></dl>
+							<dl><dt>全球运动员</dt></dl>
+						</div>
+					</div>
+				</li>
+				<li class="a3">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="house.html">HOUSE OF VANS</a>
+					<div class="two3">
+						<div class="t3">
+							<dl><dt>关于HOUSE OF VANS</dt><dd>HOUSE OF VANS亚洲之旅</dd></dl>
+							<dl><dt>滑板</dt><dd>THE STOOP SERIES</dd></dl>
+							<dl><dt>艺术</dt><dd>CUSTOM CULTURE</dd></dl>
+							<dl><dt>音乐</dt><dd>#随我造#音乐人征集活动</dd></dl>
+							<dl><dt>街头文化</dt><dd>HOUSE OF VANS WORKSHOP</dd></dl>
+						</div>
+					</div>
+				</li>
+				<li class="a4">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="newClothes.html">新品上线</a>
+					<div class="two4">
+						<div class="t4">
+							<dl><dt>男子</dt><dd>鞋款</dd><dd>服装</dd><dd>配件</dd></dl>
+							<dl><dt>女子</dt><dd>鞋款</dd><dd>服装</dd><dd>配件</dd></dl>	
+						</div>
+						<img class="fgx" src="images/nav-3.jpg">
+						<ul class="shoes">
+							<li><a href="#"><img src="images/nav-shoe1.png"></a></li>
+							<li><a href="#"><img src="images/nav-shoe2.png"></a></li>
+							<li><a href="#"><img src="images/nav-shoe3.png"></a></li>
+							<li><a href="#"><img src="images/nav-shoe4.png"></a></li>
+							<li><a href="#"><img src="images/nav-shoe5.jpg"></a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="a5">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="#">男子</a>
+					<div class="two5">
+						<div class="t5">
+							<dl><dt>鞋款</dt></dl>
+							<dl><dt>服装</dt><dd>T恤和背心</dd><dd>套头卫衣</dd><dd>开襟卫衣</dd><dd>夹克</dd><dd>长裤</dd><dd>短裤/沙滩裤</dd><dd>全部</dd></dl>
+							<dl><dt>配件</dt><dd>背包</dd><dd>钱包</dd><dd>帽子</dd><dd>袜子</dd><dd>太阳眼镜</dd><dd>全部</dd></dl>
+						</div>
+					</div>
+				</li>
+				<li class="a6">
+					<div class="chan"></div><div class="chan2"></div>
+					<a href="#">女子</a>
+					<div class="two6">
+						<div class="t6">
+							<dl><dt>鞋款</dt></dl>
+							<dl><dt>服装</dt><dd>T恤和背心</dd><dd>套头卫衣</dd><dd>开襟卫衣</dd><dd>夹克</dd><dd>长裤/打底裤</dd><dd>短裤/短裙</dd><dd>全部</dd></dl>
+							<dl><dt>配件</dt><dd>背包</dd><dd>钱包</dd><dd>帽子</dd><dd>袜子</dd><dd>太阳眼镜</dd><dd>全部</dd></dl>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">搜索店铺</a></li>
+			</ul>
+		</nav>
+	</div>	
+</header>
+
+
+<!-- 代码 开始 -->
+<div class="container-fluid text-center">
+    <div class="header">
+        <img class="headerImg"
+             src="images2/header.jpg"
+             data-slideshow='images2/img1.jpg|images2/img2.jpg|images2/img3.jpg'>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.hammer-full.min.js"></script>
+<script src="js/plugin.js"> </script>
+<script src="js/lrtk.js"></script>
+<script>
+var links = ["http://www.lanrentuku.com", "http://www.lanrentuku.com/lanren/", "http://www.lanrentuku.com/js/biaoqian.html", "http://www.lanrentuku.com/js/xiangce.html"];
+$(".slide").click(function(){
+    var index = $(this).attr('index');
+	if(index === undefined) {
+		window.open(links[0]);
+	} else {
+		window.open(links[(parseInt(index)+1)]);
+	}
+
+});
+</script>
+<!-- 代码 结束 -->
+
+<section>
+
+	<article class="top">
+	<div class="center">
+		<h1>HOUSE OF VANS <span>亚洲之旅</span> 2017</h1>
+		<dl>
+			<dt><a href=""><img src="images2/art1-01.jpg"></a></dt>
+			<dd class="left">上海 YO'HOOD</dd>
+			<dd class="right">9月2日-3日</dd>
+		</dl>
+		<dl>
+			<dt><a href=""><img src="images2/art1-02.jpg"></a></dt>
+			<dd class="left">THE LAB STORE</dd>
+			<dd class="right">8月19日-09日</dd>
+		</dl>
+
+		<dl>
+			<dt><a href=""><img src="images2/art1-03.jpg"></a></dt>
+			<dd class="left">吉隆坡</dd>
+			<dd class="right">9月9日</dd>
+		</dl>
+
+		<dl>
+			<dt><a href=""><img src="images2/art1-04.jpg"></a></dt>
+			<dd class="left">韩国首尔</dd>
+			<dd class="right">9月15日-16日</dd>
+		</dl>
+	</div>	
+	</article>
+
+
+<article class="big">
+	<ul class="one">
+	<div class="bla">
+		<li class="tit">艺术</li>
+		<li class="msg">VANS 一直鼓励大家表达自己的创意和想法，并将它们展现给更多的小伙伴！即日起至12月底只要你在 VANS 经典的 AUTHENTIC 鞋款上进行艺术创作！就有机会被 VANS 量产！并在全亚洲 VANS 店内发售！亚洲的小伙伴都有机会穿上你的作品！</li>
+		<li class="join"><a href="#">立即参与</a></li>
+	</div>
+	</ul>
+
+	<ul class="two">
+	<div class="bla">
+		<li class="tit">滑板</li>
+		<li class="msg">VANS联合众多滑板店和滑板团队共同庆祝世界滑板日</li>
+		<li class="join"><a href="#">立即参与</a></li>
+	</div>
+	</ul>
+
+	<ul class="three">
+	<div class="bla">
+		<li class="tit">音乐</li>
+		<li class="msg">VANS 一直致力于各项文化领域的发掘，自豪于培养了许多本土艺术人才。今年VANS继续通过音乐人招募，让本土音乐人踏上HOUSE OF VANS亚洲之旅的舞台！</li>
+		<li class="join"><a href="#">立即参与</a></li>
+	</div>
+	</ul>
+
+	<ul class="four">
+	<div class="bla">
+		<li class="tit">街头文化</li>
+		
+		<li class="join"><a href="#">立即参与</a></li>
+	</div>
+	</ul>
+</article>
+
+
+<article class="three">
+	<h2><a href="">#HOUSE OF VANS#</a></h2>
+	<div class="center">
+		<ul>
+			<li class="p1"><div class="bla"></div></li>
+			<li class="p2"><div class="bla"></div></li>
+			<li class="p3"><div class="bla"></div></li>
+			<li class="p4"><div class="bla"></div></li>
+			<li class="p5"><div class="bla"></div></li>
+
+		</ul>
+	</div>
+</article>
+
+	<div class="clear"></div>
+
+<article class="bot">
+	<h1>2016 HOUSE OF VANS</h1>
+	<div class="center">
+		<ul>
+			<li><a href=""><div><img src="images2/art4-01.jpg"></div><span>- 胡志明市 -</span></a></li>
+			<li><a href=""><div><img src="images2/art4-02.jpg"></div><span>- 首尔 -</span></a></li>
+			<li><a href=""><div><img src="images2/art4-03.jpg"></div><span>- 上海 -</span></a></li>
+			<li><a href=""><div><img src="images2/art4-04.jpg"></div><span>- 新加坡 -</span></a></li>
+
+		</ul>
+	</div>
+</article>
+
+</section>
+
+	<div class="clear"></div>
+<div class="show"></div>
+<footer>
+	<div class="center">
+	<div class="wow"></div>
+		<div class="top">
+			<div class="left fl">
+				<span class="fl">获取帮助</span><br>
+				<dl class="fl">
+					<dt>购物</dt>
+					<dd><a href="#">新品上线</a> </dd>
+					<dd><a href="#">男子</a> </dd>
+					<dd><a href="#">女子</a> </dd>
+					<dd><a href="#">查找店铺</a> </dd>
+				</dl>
+				<dl>
+					<dt>公司</dt>
+					<dd><a href="#">使用条款</a> </dd>
+					<dd><a href="#">客户服务</a> </dd>
+					<dd><a href="#">隐私政策</a> </dd>
+					<dd><a href="#">可持续发展</a> </dd>
+				</dl>
+			</div>
+
+			<div class="middle fl">
+				<span>联系我们</span>
+				<dl>
+					<dt>电子邮件</dt>
+					<dd><a href="#">contuatas@vans.com.cn</a></dd>
+				</dl>
+				<dl>
+					<dt>地址</dt>
+					<dd>中国上海市南京西路688号8楼</dd>
+				</dl>
+			</div>
+
+			<div class="right fl">
+				<span>订阅</span>
+				<dl>
+					<dd>订阅以获取最新资讯</dd>
+					<dd>
+						<form>
+							<input type="text" placeholder="电子邮件">
+						</form>
+					</dd>
+				</dl>
+				<span>在这些地方找到我们</span>
+				<ul>
+					<li class="l1"><div class="c1"><a href="#"></a></div></li>
+					<li class="l2"><div class="c2"><a href="#"></a></div></li>
+					<li class="l3"><div class="c3"><a href="#"></a></div></li>
+					<li class="l4"><div class="c4"><a href="#"></a></div></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="bot">
+			<img class="fl" src="images/foot.jpg">
+			<span class="fr">苏ICP备13010219号 工信部网站威富服饰（中国）有限公司</span>
+			
+		</div>
+	</div>
+</footer>
+<aside>
+	<ul>
+		<li><a href="#"><img src="images/side-01.jpg"></a></li>
+		<li><a href="#"><img src="images/side-02.jpg"></a></li>
+	</ul>
+</aside>
+</body>
+</html>

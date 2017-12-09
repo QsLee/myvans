@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@charset "utf-8";
+header{width:100%;height: 185px;background:#fff;border-bottom: 15px solid #000;margin-bottom:0;}
+footer  .wow{width:100%;height:10px;}
+a:hover{text-decoration: none;}
+header .center ul.main li.top6 form input{width:200px;height:30px;font-size:15px;margin-top: -3px;padding-left:10px;font-weight:800;}
+header .center ul.main li.top2{margin-right:22px;}
+header nav ul li.a3 a{color:#C30008;}
+
+
+/*section*/
+section{width:100%;background:#F1F2ED;height:2730px;}
+section article.top{height:260px;background: url(../images2/bg.png) no-repeat center 145px;}
+section article.top h1{width:100%;height:100px;color:#000;font-weight:800;text-align: center;line-height:100px;}
+section article.top h1 span{font-family: "微软雅黑";}
+section article.top dl{float:left;margin-right:10px;position: relative;}
+section article.top dl dt{background:#000;}
+section article.top dl dt img{width:240px;}
+section article.top dl dt img:hover{opacity: 0.7;}
+section article.top dl dd{width:50%;height:37px;line-height:37px;color:#fff;font-weight: 800;}
+section article.top dl dd.left{background: #000;font-size:14px;padding-left:5px;position: absolute;left:0;bottom:0;}
+section article.top dl dd.right{background: #D6000F;font-size:13px;text-align: center;position: absolute;right:0;bottom:0;}
+
+
+section article.big{margin-top:30px;}
+section article.big ul{width:100%;height:435px;border-bottom: 15px solid #000;}
+section article.big ul.one{border-top: 15px solid #000;height:450px;}
+section article.big ul div.bla{width:100%;height:420px;background:rgba(0,0,0,.5);}
+section article.big ul li{text-align: center;color:#fff;margin:auto;}
+section article.big ul li.tit{width:200px;height:60px;font-size:40px;font-weight: 800;padding-top: 120px;}
+section article.big ul li.msg{width:500px;font-size:18px;padding-top:50px;line-height:25px;}
+section article.big ul li.join a{display:block;width:200px;height:40px;text-align: center;line-height: 40px;color:#fff;font-size: 15px;font-weight: 800;background:#D6000F;margin:20px auto;transition: .2s;}
+section article.big ul li.join a:hover{background: #000;transition: .2s;}
+section article.big ul.one{background:url(../images2/bg-02.jpg) no-repeat;background-size:cover;}
+section article.big ul.two{background:url(../images2/bg-01.jpg) no-repeat;background-size:cover;}
+section article.big ul.three{background:url(../images2/bg-03.jpg) no-repeat;background-size:cover;}
+section article.big ul.four{background:url(../images2/bg-04.jpg) no-repeat;background-size:cover;}
+section article.big ul.four li.join{margin:80px auto;}
+
+
+section article.three{margin-top:30px;height:300px;background: url(../images2/bg.png) no-repeat center 150px;}
+section article.three h2{width:100%;height:80px;text-align: center;line-height:80px;background:#000;}
+section article.three h2 a{color:#fff;font-weight:800;}
+section article.three ul{width:100%;height:200px;}
+section article.three ul li{width:200px;height:200px;float:left;cursor: pointer;}
+section article.three ul li div.bla{width:200px;height:200px;background:#000;opacity:.5;transition: .5s;}
+section article.three ul li:hover div.bla{opacity:0;transition: .5s;}
+section article.three ul li.p1{background:url(../images2/art3-06.jpg) no-repeat;background-size:cover;}
+section article.three ul li.p2{background:url(../images2/art3-02.jpg) no-repeat;background-size:cover;}
+section article.three ul li.p3{background:url(../images2/art3-03.jpg) no-repeat;background-size:cover;}
+section article.three ul li.p4{background:url(../images2/art3-04.jpg) no-repeat;background-size:cover;}
+section article.three ul li.p5{background:url(../images2/art3-05.jpg) no-repeat;background-size:cover;}
+
+
+section article.bot{width:100%;height:310px;background: url(../images2/bg.png) no-repeat center 140px;}
+section article.bot h1{width:100%;height:80px;text-align: center;line-height:80px;color:#000;font-weight:800;}
+section article.bot ul li{width:250px;height:200px;float:left;}
+section article.bot ul li div{width:250px;height:164px;background: #000;overflow: hidden;}
+section article.bot ul li:hover img{opacity:1;transition: .5s;transform: scale(1.1);}
+section article.bot ul li img{width:250px;opacity: .5;transition: .5s;}
+section article.bot ul li span{width:100px;color:#000;font-size:16px;font-weight: 800;text-align: center;margin:10px auto;display: block;}
